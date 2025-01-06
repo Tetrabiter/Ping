@@ -1,18 +1,15 @@
 import "./App.css";
 import Logo from "./components/Logo";
-import DashboardImg from '../src/assets/illustration-dashboard.png'
+import Footer from "./components/Footer";
+import Main from "./components/Main";
 
 function App() {
   return (
-    <>
+    <div className="w-full h-screen flex flex-col justify-center items-center">
       <Logo />
-      <p>We are launching soon!</p>
-      <p>Subscribe and get notified</p>
-      <input placeholder="Your email address..." />
-      <button type="submit">Notify Me</button>
-      <img src={DashboardImg} />
-
-    </>
+      <Main />
+      <Footer />
+    </div>
   );
 }
 
