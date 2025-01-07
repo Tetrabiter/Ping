@@ -12,6 +12,7 @@ export default {
       "gray": "hsl(0, 0%, 59%)",
       "dark-blue": "hsl(209, 33%, 12%)",
       "white": '#fff',
+      "black": '#000',
     },
     extend: {},
   },
