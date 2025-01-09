@@ -21,11 +21,11 @@ const Main = () => {
 
   return (
     <main className="flex flex-col items-center">
-      <p className="text-3xl sm:text-5xl text-gray">We are launching <b className="text-black">soon!</b></p>
-      <p className="text-lg mt-[1.5%] mb-[3%]">Subscribe and get notified</p>
+      <p className="text-3xl sm:text-5xl text-gray my-[5%] sm:my-0">We are launching <b className="text-black">soon!</b></p>
+      <p className="text-lg mt-[1.5%] mb-[12%] sm:mb-[3%]">Subscribe and get notified</p>
       <form onSubmit={handleSubmit} action="/" className="flex flex-col sm:flex-row justify-center items-center gap-4">
             <input 
-                className={`py-4 pr-28 pl-6 rounded-full border  ${error === true ? 'border-light-red' : 'border-pale-blue'}`} 
+                className={`w-[90%] sm:w-auto py-4 pr-28 pl-6 rounded-full border  ${error === true ? 'border-light-red' : 'border-pale-blue'}`} 
                 placeholder="Your email address..." 
                 type="email"
                 onChange={(e) => setEmail(e.target.value.trim())}
@@ -33,7 +33,7 @@ const Main = () => {
             />
         <button 
             type="submit"
-            className="bg-blue w-full text-white font-semibold px-16 py-4 rounded-full shadow-xl"
+            className="bg-blue w-[90%] sm:w-full text-white font-semibold px-16 py-4 rounded-full shadow-xl"
         >
             Notify Me
         </button>

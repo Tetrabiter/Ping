@@ -5,7 +5,7 @@ import Main from "./components/Main";
 
 function App() {
   return (
-    <div className="w-full h-screen flex flex-col justify-center items-center">
+    <div className="w-full h-auto sm:h-screen flex flex-col justify-center items-center">
       <Logo />
       <Main />
       <Footer />

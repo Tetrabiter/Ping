@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="mt-[9%]">
+    <footer className="mt-[30%] sm:mt-[9%]">
       <div className="flex text-blue justify-center gap-4">
         <button className="p-2 text-xl border rounded-full flex justify-center items-center  hover:bg-blue hover:text-white duration-300">
           <ion-icon name="logo-facebook"></ion-icon>
@@ -13,9 +13,9 @@ function Footer() {
         </button>
       </div>
 
-      <div className="mt-[8%]">
+      <div className="mt-[8%] sm:mt-[8%]">
         <p className="text-gray text-center">&copy; Copyright Ping. All rights reserved.</p>
-        <p>
+        <p className="text-sm sm:text-lg">
           Challenge by{" "}
           <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
             Frontend Mentor
